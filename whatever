@@ -23,15 +23,15 @@
 	</script>   
 		<style>
 	body{
-	background-color: #66CCFF;
+	background-color: #000080;
 }
 #imgone {
 	position: relative;
-	width: 20vw;
-	height: 20vw;
-	top: 20vh;
+	width: 25vw;
+	height: 23vw;
+	top: 15vh;
 	display: inline-block;
-	left: 40vw;
+	left: 15vw;
 }
 #select{
 	position: fixed;
@@ -157,26 +157,31 @@
 	  4px 4px 0px #d5d5d5, 
 	  7px 7px 0px rgba(0, 0, 0, 0.2);
 }
-
+#divcolor {
+  position: absolute;
+  background-color: #0000CC;
+  top:0px;
+  left:0px;
+  width: 100%;
+}
 ul {
-  background-color: rgba(0,0,255,0.3);
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   /*background-color: #333;*/
-  
+  font-size:4vw;
 }
 
-li {
-  float: left;
+li a:not(.active){
+  float: right;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2vw;
   text-decoration: none;
 }
 
@@ -185,7 +190,16 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #4CAF50;
+  float:left;
+}
+h1 {
+    position:absolute;
+    color:white;
+    font-size:6vw;
+    left:15vw;
+    right:55vw;
+    text-align:center;
+    top:50vw;
 }
 		</style>
 		</head>
