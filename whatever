@@ -60,7 +60,7 @@
 
 #home{
 	font-family: 'Archivo Black', sans-serif;
-	font-size: 4vw;
+	font-size: 2vw;
 	text-align: left;
 	color: white;
 	position: relative;
@@ -80,7 +80,7 @@
 
 #us{
 	font-family: 'Archivo Black', sans-serif;
-	font-size: 3vw;
+	font-size: 2vw;
 	text-align: left;
 	color: white;
 	position: relative;
@@ -100,7 +100,7 @@
 
 #acti{
 	font-family: 'Archivo Black', sans-serif;
-	font-size: 3vw;
+	font-size: 2vw;
 	text-align: left;
 	color: white;
 	position: relative;
@@ -140,7 +140,7 @@
 
 #cont{
 	font-family: 'Archivo Black', sans-serif;
-	font-size: 3vw;
+	font-size: 2vw;
 	text-align: left;
 	color: white;
 	position: relative;
@@ -170,7 +170,7 @@ ul {
   padding: 0;
   overflow: hidden;
   /*background-color: #333;*/
-  font-size:4vw;
+  font-size:2vw;
 }
 
 li a:not(.active){
